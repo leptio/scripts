@@ -9,7 +9,7 @@ guiframe.Position = UDim2.new(0.05, 0, 0.9, 0)
 local textlabeltop = Instance.new("TextLabel", guiframe)
 textlabeltop.Size = UDim2.new(1, 0, 1, 0)
 textlabeltop.BackgroundTransparency = 1
-textlabeltop.Text = "F11 to see block outline, F12 to delete"
+textlabeltop.Text = "F4 to see block outline, F5 to delete"
 textlabeltop.TextColor3 = Color3.new(1, 1, 1)
 game.Debris:AddItem(guiframe, 5)
 textlabeltop.TextScaled = true
